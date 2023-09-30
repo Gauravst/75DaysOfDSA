@@ -1,0 +1,14 @@
+# Ignore all files and folders by default
+*
+
+# Allow files with a .cpp extension
+!*.cpp
+
+# Allow folders containing "Day"
+!**/*Day*/
+
+# Allow README.md
+!README.md
+
+# Allow .gitignore
+!.gitignore
