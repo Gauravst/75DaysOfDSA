@@ -33,13 +33,13 @@ int main() {
   cout << (g <= h) << endl;
 
   // Logical Operators
-// 	&& 	Logical and	Returns true if both statements are true	x < 5 &&  x < 10	
-// || 	Logical or	Returns true if one of the statements is true	x < 5 || x < 4	
-// !
+  // 	&& 	Logical and	Returns true if both statements are true	x < 5 &&  x < 10
+  // || 	Logical or	Returns true if one of the statements is true	x < 5 || x < 4
+  // !
 
-	cout << ((5 > 5) && (5 < 456)) << endl; // false - 0
-	cout << ((5 > 5) || (5 < 456)) << endl; // true - 1
-	cout << !false << endl; // true - 1
- 
+  cout << ((5 > 5) && (5 < 456)) << endl;  // false - 0
+  cout << ((5 > 5) || (5 < 456)) << endl;  // true - 1
+  cout << !false << endl;                  // true - 1
+
   return 0;
 }
