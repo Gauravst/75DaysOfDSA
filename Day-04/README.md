@@ -5,11 +5,8 @@ Today's DSA Journey:
 
 🚀 I embarked on my #75DaysOfDSA challenge, and it was an exhilarating start! Here's what I accomplished today:
 
-
-1️⃣ Two Sum
-2️⃣ Power of Two
-3️⃣ Complement of Base 10 Integer
-4️⃣ Reverse Integer
+1️⃣ Switch Statement
+2️⃣ Functions
 
 75 Days Of DSA - https://bit.ly/75DaysOfDSA
 Day 04 - 
