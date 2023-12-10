@@ -6,6 +6,7 @@
 
 # Allow folders containing "Day"
 !**/*Day*/
+!**/*Recursion*/
 
 # Allow README.md
 !README.md
