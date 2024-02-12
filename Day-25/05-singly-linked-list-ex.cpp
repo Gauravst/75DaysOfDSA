@@ -91,6 +91,26 @@ void print(Node*& head) {
   cout << endl;
 }
 
+bool checkCircular(Node*& head) {
+  // if(head == NULL) {
+  //   return true;
+  // }
+
+  // if(head->next == NULL) {
+  //   return false;
+  // }
+
+  Node* temp = head->next;
+  while(temp != NULL && temp != head) {
+    temp = temp->next;
+  }
+
+  if(temp = head) {
+    return true;
+  }
+  return false;
+}
+
 int main() {
   Node* n1 = new Node(10);
   Node* head = n1;
@@ -109,5 +129,11 @@ int main() {
 
   deleteNode(2, head);
   print(head);
+
+  if(checkCircular(head)) {
+    cout << "List is Circular" << endl;
+  } else {
+    cout << "List not circular" << endl;
+  }
   return 0;
 }
