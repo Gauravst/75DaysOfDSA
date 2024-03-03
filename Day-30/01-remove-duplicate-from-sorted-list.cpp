@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
-
 class Node {
-public:
+ public:
   int data;
   Node* next;
 
@@ -11,21 +10,21 @@ public:
     this->next = NULL;
   }
 
-	~Node(){
-		if(this->next != NULL){
-			delete next;
-			next = NULL;
-		}
-	}
+  ~Node() {
+    if (this->next != NULL) {
+      delete next;
+      next = NULL;
+    }
+  }
 };
 
 void print(Node* head) {
-  if(head == NULL) {
+  if (head == NULL) {
     cout << "List is empty" << endl;
     return;
   }
 
-  while(head != NULL) {
+  while (head != NULL) {
     cout << head->data << " ";
     head = head->next;
   }
@@ -39,19 +38,17 @@ void insertNode(Node*& head, int data) {
 }
 
 void removeDuplicate(Node* head) {
-  if(head == NULL) {
+  if (head == NULL) {
     return;
   }
 
-  while(head != NULL) {
-
-    if((head->next != NULL) && (head->data == head->next->data)) {
-
-			Node* nextNode = head->next->next;
-			Node* nodeToDelete = head-> next;
-			delete nodeToDelete;
+  while (head != NULL) {
+    if ((head->next != NULL) && (head->data == head->next->data)) {
+      Node* nextNode = head->next->next;
+      Node* nodeToDelete = head->next;
+      delete nodeToDelete;
       head->next = nextNode;
-      
+
     } else {
       head = head->next;
     }
@@ -71,7 +68,7 @@ int main() {
   insertNode(head, 50);
   print(head);
 
-	removeDuplicate(head);
-	print(head);
+  removeDuplicate(head);
+  print(head);
   return 0;
 }
