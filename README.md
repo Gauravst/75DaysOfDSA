@@ -10,7 +10,7 @@ The primary goals of the "75 Days of DSA" challenge are:
 
 2. **Algorithm Proficiency:** You'll work on improving your algorithmic problem-solving skills. This includes practicing algorithms for sorting, searching, dynamic programming, and other common algorithmic paradigms.
 
-3. **Coding Practice:** You'll solve coding problems related to DSA. This often involves platforms like LeetCode, HackerRank, Codeforces, or others, where you can practice real-world problem-solving.
+3. **Coding Practice:** You will solve coding problems related to DSA. This often involves platforms like LeetCode, HackerRank, Codeforces, or others, where you can practice real-world problem-solving.
 
 4. **Consistency:** The challenge emphasizes daily practice to build a consistent habit of studying DSA. Daily practice is key to retaining knowledge and improving problem-solving skills.
 
