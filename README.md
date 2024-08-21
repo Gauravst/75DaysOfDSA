@@ -37,4 +37,4 @@ Participating in the "75 Days of DSA" challenge offers several benefits:
 - Increased competitiveness in programming competitions.
 - Building a strong foundation in computer science fundamentals.
 
-Remember that the key to success in this challenge is consistency and dedication. It's essential to maintain a balance between theory and practice while adapting the challenge to your own learning pace and goals. Good luck with your "75 Days of DSA" journey!
+Remember that key to success in this challenge is consistency and dedication. It's essential to maintain a balance between theory and practice while adapting the challenge to your own learning pace and goals. Good luck with your "75 Days of DSA" journey!
